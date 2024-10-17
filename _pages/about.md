@@ -19,13 +19,13 @@ I am interested in computer vision, generative modelling, multimodal foundationa
 
 Publications
 ======
-Multimodal Transformer using Cross-Channel Attention for Object Detection in Remote Sensing Images [paper](https://arxiv.org/abs/2310.13876)   [code](https://github.com/Bissmella/Small-object-detection-transformers)
+**Multimodal Transformer using Cross-Channel Attention for Object Detection in Remote Sensing Images** [paper](https://arxiv.org/abs/2310.13876)   [code](https://github.com/Bissmella/Small-object-detection-transformers)
 (ICIP-24, <span style="color:red">oral presentation</span>) Bissmella Bahaduri, Zuheng Ming, Fangchen Feng, Anissa Mokraoui
 
 Talks
 ======
 Vers un apprentissage pragmatique dans un contexte de données visuelles labellisées limitées:
-Indirect-attention: IA-DETR for one-shot object detection, June 2024
+**Indirect-attention: IA-DETR for one-shot object detection**, June 2024
 
 Selected projects
 ======
@@ -34,7 +34,7 @@ Llama v2 7b is a large language model (LLM) with 7 billion parameters that can b
 [code](https://github.com/Bissmella/FineTune_llama_on_chat_data)
 
 2. Blind navigation in 2d
-This is a 2d implementation of the paper "paper". The main objective is to train a model for navigating an environment without any visual from the surroundings. The full project concerns an evolving environment where some part of the environment becomes unreachable as time evovles (for example a fire is spreading in the environment) and the goal of the agent is to navigate through the environment and reach the designated target. [code]()
+This is a 2d implementation of the paper [Emergence of maps in the memories of blind navigation agents](https://arxiv.org/pdf/2301.13261). The main objective is to train a model for navigating an environment without any visual from the surroundings. The full project concerns an evolving environment where some part of the environment becomes unreachable as time evovles (for example a fire is spreading in the environment) and the goal of the agent is to navigate through the environment and reach the designated target. [code](https://github.com/Bissmella/Blind_navigation_2d.git)
 
 <!-- For more info
 ------

@@ -82,12 +82,12 @@ analytics:
 author:
   name             : "Bissmella Bahaduri"
   avatar           : "profile.png"
-  bio              : "Computer vision"
+  bio              : "M2 MVA student at ENS Paris-Saclay"
   location         : "Paris, France"
   employer         :
   pubmed           : 
   googlescholar    : 
-  email            :  "bissmellabahaduri@gmail.com"
+  email            :  "bissmella.bahaduri@ens-paris-saclay.fr"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -179,10 +179,10 @@ collections:
     output: true
     permalink: /:collection/:path/
   publications:
-    output: true
+    output: false
     permalink: /:collection/:path/
   portfolio:
-    output: true
+    output: false
     permalink: /:collection/:path/
   talks:
     output: true
