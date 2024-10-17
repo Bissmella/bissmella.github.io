@@ -19,7 +19,7 @@ I am interested in computer vision, generative modelling, multimodal foundationa
 
 Publications
 ======
-**Multimodal Transformer using Cross-Channel Attention for Object Detection in Remote Sensing Images** [paper](https://arxiv.org/abs/2310.13876)   [code](https://github.com/Bissmella/Small-object-detection-transformers)
+1. **Multimodal Transformer using Cross-Channel Attention for Object Detection in Remote Sensing Images** [paper](https://arxiv.org/abs/2310.13876)   [code](https://github.com/Bissmella/Small-object-detection-transformers)
 (ICIP-24, <span style="color:red">oral presentation</span>) Bissmella Bahaduri, Zuheng Ming, Fangchen Feng, Anissa Mokraoui
 
 Talks
