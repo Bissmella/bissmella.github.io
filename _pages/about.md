@@ -8,23 +8,33 @@ redirect_from:
   - /about.html
 ---
 
-I am a fresh graduate from University of Toulouse - Capitole. Before that I have worked as data analyst in humanitarian projects with United Nations.
+I am an M2 MVA (Mathematics, Vision, Apprentisage/learning) student at École Normale Supérieure Paris-Saclay. Previously I both intered and worked as research engineer at L2TI lab of Univeristy of Sorbonne Paris-Nord where I mainly worked on multimodal object detection and few-shot learning for object detection.
+More specifically, during my Master's internship at L2TI laboratory I worked on fusion of multi-modal (RGB & IR) data in aerial images for the purpose of object detection and I leveraged cross-channel attention mechanism for using the benefits of multi-modality in remote-sensing images. The output of this internship has been published as an oral paper at ICIP 2024.
 
 
 Research interests
 ======
-I am interested and actively working in computer vision domain. During my Master's internship at L2TI laboratory of USPN (University of Sorbonne Paris Nord) I worked on fusion of multi-modal (RGB & IR) data in aerial images for the purpose of object detection and I leveraged the simple cross attention mechanism for doing so. I am also excited about foundation models, and vision-language models.
+I am interested in computer vision, generative modelling, multimodal foundational models and theoretical understanding of deep learning. I am actively searching for internship and PhD program in these domains.
+
+
+Publications
+======
+Multimodal Transformer using Cross-Channel Attention for Object Detection in Remote Sensing Images [paper](https://arxiv.org/abs/2310.13876)   [code](https://github.com/Bissmella/Small-object-detection-transformers)
+(ICIP-24, <span style="color:red">oral presentation</span>) Bissmella Bahaduri, Zuheng Ming, Fangchen Feng, Anissa Mokraoui
+
+Talks
+======
+Vers un apprentissage pragmatique dans un contexte de données visuelles labellisées limitées:
+Indirect-attention: IA-DETR for one-shot object detection, June 2024
 
 Selected projects
 ======
-1. Multimodal Transformer Using Cross-Channel attention for Object Detection in Remote Sensing Images:
-Object detection in Remote Sensing Images (RSI) is a critical task for numerous applications in Earth Observation (EO). We propose a multimodal transformer exploring multi-source remote sensing data for object detection. Instead of directly combining the multimodal input through a channel-wise concatenation, which ignores the heterogeneity of different modalities, we use a cross-channel attention module which learns the relationship between different channels, enabling the construction of a coherent multimodal input by aligning the different modalities at the early stage.
-[paper](https://arxiv.org/abs/2310.13876)   [code](https://github.com/Bissmella/Small-object-detection-transformers)
-
-2. Fine-tune LLAMA-v2 on personal chat data
+1. Fine-tune LLAMA-v2 on personal chat data
 Llama v2 7b is a large language model (LLM) with 7 billion parameters that can be used for a variety of tasks, including text generation, translation, and question answering. However it can be fine-tuned on any other specific use such as on personal chat data for personal purposes using freely available colab GPU.
 [code](https://github.com/Bissmella/FineTune_llama_on_chat_data)
 
+2. Blind navigation in 2d
+This is a 2d implementation of the paper "paper". The main objective is to train a model for navigating an environment without any visual from the surroundings. The full project concerns an evolving environment where some part of the environment becomes unreachable as time evovles (for example a fire is spreading in the environment) and the goal of the agent is to navigate through the environment and reach the designated target. [code]()
 
 <!-- For more info
 ------
