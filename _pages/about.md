@@ -30,6 +30,9 @@ Vers un apprentissage pragmatique dans un contexte de données visuelles labelli
 
 Selected projects
 ======
+1. In this project/report we take a Bayesian approach to provide a better solution to the problem of noisy labels for LLM alignment with human preference. First, we link the preference alignment setting to the more general Bayesian framework for noisy labels. Second, we experiment with loss functions, namely the reverse KL divergence that has more theoretical guarantees, and the Jensen-Shannon entropy. [code](https://github.com/Bissmella/llm_bayesian_preference.git) [Report](/files/bayesian_preference_LLM.pdf)
+
+
 1. A note on lazy training in differentiable programming (Richard Goudelin, Bissmella Bahaduri)
 We explore how scaling factors influence the transition to lazy training, where models behave linearly around their initialization. Through theoretical analysis and extensive experiments on two-layer neural networks, we extend the demonstration of how large scaling factors induce minimal parameter updates, leading to faster convergence but potentially limiting the model’s ability to capture complex nonlinear relationships. Additionally, we examine the correlation between weight initialization scales and output scaling factors and visualize the loss landscape under different scaling conditions. Our visualizations, and empirical and theoretical analysis provide deeper insights into the training dynamics of neural networks and extend on top of lazy training dynamics understanding.
 [code](https://github.com/RichardGou/MVA_GDA_PROJECT) [Report](/files/note_on_lazy_training.pdf)
