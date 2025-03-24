@@ -30,7 +30,7 @@ Vers un apprentissage pragmatique dans un contexte de données visuelles labelli
 
 Selected projects
 ======
-1. In this project/report we take a Bayesian approach to provide a better solution to the problem of noisy labels for LLM alignment with human preference. First, we link the preference alignment setting to the more general Bayesian framework for noisy labels. Second, we experiment with loss functions, namely the reverse KL divergence that has more theoretical guarantees, and the Jensen-Shannon entropy. [code](https://github.com/Bissmella/llm_bayesian_preference.git) [Report](/files/bayesian_preference_LLM.pdf)
+1. A Bayesian Approach for Preference Alignment for Language Models: In this project/report we take a Bayesian approach to provide a better solution to the problem of noisy labels for LLM alignment with human preferences. First, we link the preference alignment setting to the more general Bayesian framework for noisy labels. Second, we experiment with loss functions, namely the reverse KL divergence that has more theoretical guarantees, and the Jensen-Shannon entropy. [code](https://github.com/Bissmella/llm_bayesian_preference.git) [Report](/files/bayesian_preference_LLM.pdf)
 
 
 2. A note on lazy training in differentiable programming (Richard Goudelin, Bissmella Bahaduri)
