@@ -8,13 +8,13 @@ redirect_from:
   - /about.html
 ---
 
-I am an M2 MVA (Mathematics, Vision, Apprentisage/learning) student at École Normale Supérieure Paris-Saclay. Previously I both intered and worked as research engineer at L2TI lab of Univeristy of Sorbonne Paris-Nord where I mainly worked on multimodal object detection and few-shot learning for object detection.
+I am an M2 MVA (Mathematics, Vision, Apprentisage/learning) student at École Normale Supérieure Paris-Saclay. Previously I both interned and worked as research engineer at L2TI lab of Univeristy of Sorbonne Paris-Nord where I mainly worked on multimodal object detection and few-shot learning for object detection.
 More specifically, during my Master's internship at L2TI laboratory I worked on fusion of multi-modal (RGB & IR) data in aerial images for the purpose of object detection and I leveraged cross-channel attention mechanism for using the benefits of multi-modality in remote-sensing images. The output of this internship has been published as an oral paper at ICIP 2024.
 
 
 Research interests
 ======
-I am interested in computer vision, generative modelling, multimodal foundational models and theoretical understanding of deep learning. I am actively searching for internship and PhD program in these domains.
+I am interested in reinforcement learning, multimodal foundational models, and theoretical understanding of deep learning. I am actively searching for internship and PhD program in these domains.
 
 
 Publications
