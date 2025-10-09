@@ -19,7 +19,7 @@ I am interested in reinforcement learning, multimodal foundational models, and t
 
 Publications
 ======
-1. **Indirect Attention: Turning Context Misalignment into a Feature** [paper] (https://www.arxiv.org/abs/2509.26015) [code](to be released soon) (Arxiv preprint) Bissmella Bahaduri, Hicham Talaoubrid, Fangchen Feng, Zuheng Ming, Anissa Mokraoui
+1. **Indirect Attention: Turning Context Misalignment into a Feature** [paper] (https://www.arxiv.org/abs/2509.26015) (code: to be released soon) (Arxiv preprint) Bissmella Bahaduri, Hicham Talaoubrid, Fangchen Feng, Zuheng Ming, Anissa Mokraoui
 
 2. **A Comparative Attention Framework for Better Few-shot Object Detection on Aerial Images** [paper](https://www.sciencedirect.com/science/article/pii/S0031320324009944) [code](https://github.com/pierlj/aaf_framework) (Pattern Recognition 2024) Pierre Le Jeune, Bissmella Bahaduri, Anissa Mokraoui
 3. **Multimodal Transformer using Cross-Channel Attention for Object Detection in Remote Sensing Images** [paper](https://arxiv.org/abs/2310.13876)   [code](https://github.com/Bissmella/Small-object-detection-transformers)
