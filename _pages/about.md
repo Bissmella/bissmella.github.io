@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am an M2 MVA (Mathematics, Vision, Apprentisage/learning) student at École Normale Supérieure Paris-Saclay. Previously I both interned and worked as research engineer at L2TI lab of Univeristy of Sorbonne Paris-Nord where I mainly worked on multimodal object detection and few-shot learning for object detection.
+I am an M2 MVA (Mathematics, Vision, Apprentisage/learning) student at École Normale Supérieure Paris-Saclay. In 2025 as part of my master's program I did an internship at ISIR lab of Sorbonne University on Reinforcement Learning and Language Models (both LLMs and VLMs). Previously I both interned and worked as research engineer at L2TI lab of Univeristy of Sorbonne Paris-Nord where I mainly worked on multimodal object detection and few-shot learning for object detection.
 More specifically, during my Master's internship at L2TI laboratory I worked on fusion of multi-modal (RGB & IR) data in aerial images for the purpose of object detection and I leveraged cross-channel attention mechanism for using the benefits of multi-modality in remote-sensing images. The output of this internship has been published as an oral paper at ICIP 2024.
 
 
@@ -32,7 +32,7 @@ Vers un apprentissage pragmatique dans un contexte de données visuelles labelli
 
 Selected projects
 ======
-1. **My master-MVA internship thesis:** During my internship between Apr-2025 and Sept-2025 I worked on reinforcement learning and LLMs/VLMs for sequential decision making. I have explored in multiple directions of effects of LLM biases on exploration, using LLM's prior for exploration, and enhancing value approximationg using a local utility function. The report is available [here](/files/BAHADURI%20BISSMELLA%20RAPPORT.pdf)
+1. **My master-MVA internship thesis:** During my internship between Apr-2025 and Sept-2025 I worked on reinforcement learning and LLMs/VLMs for sequential decision making. I have explored in multiple directions including: effects of LLM biases on exploration, using LLM's prior for exploration, and enhancing value approximation using a local utility function. The report is available [here](/files/BAHADURI%20BISSMELLA%20RAPPORT.pdf)
 
 2. **Curiosity based reinforcement learning for LLMs for sequential decision making:**  Implemented a curiosity-driven RL framework for large language models to encourage exploration in sequential decision tasks. The approach leverages two types of novelty: **action-level novelty** to reduce repetition, and **action-pattern novelty** via a temporal predictor model to reward unseen sequences of actions. A T5-based temporal predictor is trained to forecast the next action in a trajectory, and its prediction loss is used to guide exploration, improving policy diversity and efficiency. [code](https://github.com/Bissmella/LLM-curiosity-RL)
 
