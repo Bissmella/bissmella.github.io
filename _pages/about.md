@@ -13,13 +13,6 @@ I am a Machine Learning Engineer with more than 4 years of experience in AI and 
 Previously, I worked as a Research Engineer at the L2TI Lab, Université Sorbonne Paris-Nord, where I contributed to projects on multimodal object detection and few-shot learning and also co-led a dataset creation project from scratch. My Master’s internship there explored RGB–IR data fusion for aerial object detection using cross-channel attention mechanisms, resulting in an oral publication at ICIP 2024. In addition, I have worked as ML engineer and data analyst with different United Nations programs.
 
 
-Focus area
-======
-With a strong foundation in machine learning research, software engineering, and business analytics I focus on applied AI, developing scalable, real-world ML and generative AI systems. My focus area includes:
-ML/DL, computer vision, LLM and VLM agents.
-
-On research side I am interested in agents, reinforcement learning and multimodal foundational models.
-
 
 Publications
 ======
