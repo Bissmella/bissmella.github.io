@@ -8,13 +8,17 @@ redirect_from:
   - /about.html
 ---
 
-I am an M2 MVA (Mathematics, Vision, Apprentisage/learning) student at École Normale Supérieure Paris-Saclay. In 2025 as part of my master's program I did an internship at ISIR lab of Sorbonne University on Reinforcement Learning and Language Models (both LLMs and VLMs). Previously I both interned and worked as research engineer at L2TI lab of Univeristy of Sorbonne Paris-Nord where I mainly worked on multimodal object detection and few-shot learning for object detection.
-More specifically, during my Master's internship at L2TI laboratory I worked on fusion of multi-modal (RGB & IR) data in aerial images for the purpose of object detection and I leveraged cross-channel attention mechanism for using the benefits of multi-modality in remote-sensing images. The output of this internship has been published as an oral paper at ICIP 2024.
+I am a Machine Learning Engineer with more than 4 years of experience in AI and data science. I hold a Master’s degree (M2) in Mathematics, Vision, and Learning (MVA) from École Normale Supérieure Paris-Saclay. Additionally, I also hold a Master's degree in MIAGE (informatics applied to business) from University of Toulouse-Capitole. In 2025, I completed an internship at the ISIR Lab (Sorbonne University), focusing on Reinforcement Learning and Large Language Models (LLMs and VLMs).
+
+Previously, I worked as a Research Engineer at the L2TI Lab, Université Sorbonne Paris-Nord, where I contributed to projects on multimodal object detection and few-shot learning and also co-led a dataset creation project from scratch. My Master’s internship there explored RGB–IR data fusion for aerial object detection using cross-channel attention mechanisms, resulting in an oral publication at ICIP 2024. In addition, I have worked as ML engineer and data analyst with different United Nations programs.
 
 
-Research interests
+Focus area
 ======
-I am interested in reinforcement learning, multimodal foundational models, and theoretical understanding of deep learning. I am actively searching for research opportunities in these domains.
+With a strong foundation in machine learning research, software engineering, and business analytics I focus on applied AI, developing scalable, real-world ML and generative AI systems. My focus area includes:
+ML/DL, computer vision, LLM and VLM agents.
+
+On research side I am interested in agents, reinforcement learning and multimodal foundational models.
 
 
 Publications
