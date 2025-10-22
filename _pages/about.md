@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a Machine Learning Engineer with more than 4 years of experience in AI and data science. I hold a Master’s degree (M2) in Mathematics, Vision, and Learning (MVA) from École Normale Supérieure Paris-Saclay. Additionally, I also hold a Master's degree in MIAGE (informatics applied to business) from University of Toulouse-Capitole. In 2025, I completed an internship at the ISIR Lab (Sorbonne University), focusing on Reinforcement Learning and Large Language Models (LLMs and VLMs).
+I am a Machine Learning Engineer with with a Master’s degree (M2) in Mathematics, Vision, and Learning (MVA) from École Normale Supérieure Paris-Saclay. Additionally, I also hold a Master's degree in MIAGE (informatics applied to business) from University of Toulouse-Capitole. In 2025, I completed an internship at the ISIR Lab (Sorbonne University), focusing on Reinforcement Learning and Large Language Models (LLMs and VLMs).
 
 Previously, I worked as a Research Engineer at the L2TI Lab, Université Sorbonne Paris-Nord, where I contributed to projects on multimodal object detection and few-shot learning and also co-led a dataset creation project from scratch. My Master’s internship there explored RGB–IR data fusion for aerial object detection using cross-channel attention mechanisms, resulting in an oral publication at ICIP 2024. In addition, I have worked as ML engineer and data analyst with different United Nations programs.
 
