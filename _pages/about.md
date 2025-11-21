@@ -29,13 +29,20 @@ Vers un apprentissage pragmatique dans un contexte de données visuelles labelli
 
 Selected projects
 ======
-1. **My master-MVA internship thesis:** During my internship between Apr-2025 and Sept-2025 I worked on reinforcement learning and LLMs/VLMs for sequential decision making. I have explored in multiple directions including: effects of LLM biases on exploration, using LLM's prior for exploration, and enhancing value approximation using a local utility function. The report is available [here](/files/BAHADURI%20BISSMELLA%20RAPPORT.pdf)
 
-2. **Curiosity based reinforcement learning for LLMs for sequential decision making:**  Implemented a curiosity-driven RL framework for large language models to encourage exploration in sequential decision tasks. The approach leverages two types of novelty: **action-level novelty** to reduce repetition, and **action-pattern novelty** via a temporal predictor model to reward unseen sequences of actions. A T5-based temporal predictor is trained to forecast the next action in a trajectory, and its prediction loss is used to guide exploration, improving policy diversity and efficiency. [code](https://github.com/Bissmella/LLM-curiosity-RL)
+1. **Meeting copilot:** A real-time meeting assistant integrating speech-to-text, LLM inference, and vector search. Users can record, transcribe, and interact with meetings live. [code](https://github.com/Bissmella/meeting_assistant) 
+C:\Users\bissm\Documents\AI\personal_site\bissmella.github.io\files\meeting_copilot_demo.mp4
+<video width="640" height="360" controls>
+  <source src="/files/meeting_copilot_demo.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+2. **My master-MVA internship thesis:** During my internship between Apr-2025 and Sept-2025 I worked on reinforcement learning and LLMs/VLMs for sequential decision making. I have explored in multiple directions including: effects of LLM biases on exploration, using LLM's prior for exploration, and enhancing value approximation using a local utility function. The report is available [here](/files/BAHADURI%20BISSMELLA%20RAPPORT.pdf)
 
-3. **PnP-Flow : Plug-and-Play Image Restoration with Flow Matching:**  Image restoration is an inverse problem that aims at discovering an image from another noisy, degraded given image. In this project we analyze the usage of flow-matching in the plug and play algorithm. We train an FM model from scratch on 2D synthetic data and utilize it in PnP algorithm. [code](https://github.com/Bissmella/PnP-FM) [Report](/files/PnP_FM-report.pdf)
+3. **Curiosity based reinforcement learning for LLMs for sequential decision making:**  Implemented a curiosity-driven RL framework for large language models to encourage exploration in sequential decision tasks. The approach leverages two types of novelty: **action-level novelty** to reduce repetition, and **action-pattern novelty** via a temporal predictor model to reward unseen sequences of actions. A T5-based temporal predictor is trained to forecast the next action in a trajectory, and its prediction loss is used to guide exploration, improving policy diversity and efficiency. [code](https://github.com/Bissmella/LLM-curiosity-RL)
 
-4. **A Bayesian Approach for Preference Alignment for Language Models:** In this project/report we take a Bayesian approach to provide a better solution to the problem of noisy labels for LLM alignment with human preferences. First, we link the preference alignment setting to the more general Bayesian framework for noisy labels. Second, we experiment with loss functions, namely the reverse KL divergence that has more theoretical guarantees, and the Jensen-Shannon entropy. [code](https://github.com/Bissmella/llm_bayesian_preference.git) [Report](/files/bayesian_preference_LLM.pdf)
+4. **PnP-Flow : Plug-and-Play Image Restoration with Flow Matching:**  Image restoration is an inverse problem that aims at discovering an image from another noisy, degraded given image. In this project we analyze the usage of flow-matching in the plug and play algorithm. We train an FM model from scratch on 2D synthetic data and utilize it in PnP algorithm. [code](https://github.com/Bissmella/PnP-FM) [Report](/files/PnP_FM-report.pdf)
+
+5. **A Bayesian Approach for Preference Alignment for Language Models:** In this project/report we take a Bayesian approach to provide a better solution to the problem of noisy labels for LLM alignment with human preferences. First, we link the preference alignment setting to the more general Bayesian framework for noisy labels. Second, we experiment with loss functions, namely the reverse KL divergence that has more theoretical guarantees, and the Jensen-Shannon entropy. [code](https://github.com/Bissmella/llm_bayesian_preference.git) [Report](/files/bayesian_preference_LLM.pdf)
 
 
 5. **A note on lazy training in differentiable programming:**
