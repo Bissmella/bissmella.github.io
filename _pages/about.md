@@ -26,7 +26,6 @@ Selected projects
 ======
 
 1. **Meeting copilot:** A real-time meeting assistant integrating speech-to-text, LLM inference, and vector search. Users can record, transcribe, and interact with meetings live. [code](https://github.com/Bissmella/meeting_assistant) 
-C:\Users\bissm\Documents\AI\personal_site\bissmella.github.io\files\meeting_copilot_demo.mp4
 <video width="640" height="360" controls>
   <source src="/files/meeting_copilot_demo.mp4" type="video/mp4">
   Your browser does not support the video tag.
