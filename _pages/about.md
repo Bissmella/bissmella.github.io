@@ -22,11 +22,6 @@ Publications
 3. **Multimodal Transformer using Cross-Channel Attention for Object Detection in Remote Sensing Images** [paper](https://arxiv.org/abs/2310.13876)   [code](https://github.com/Bissmella/Small-object-detection-transformers)
 (ICIP-24, <span style="color:red">oral presentation</span>) Bissmella Bahaduri, Zuheng Ming, Fangchen Feng, Anissa Mokraoui
 
-Talks
-======
-Vers un apprentissage pragmatique dans un contexte de données visuelles labellisées limitées:
-**Indirect-attention: IA-DETR for one-shot object detection**, June 2024
-
 Selected projects
 ======
 
