@@ -41,16 +41,16 @@ Selected projects
 5. **A Bayesian Approach for Preference Alignment for Language Models:** In this project/report we take a Bayesian approach to provide a better solution to the problem of noisy labels for LLM alignment with human preferences. First, we link the preference alignment setting to the more general Bayesian framework for noisy labels. Second, we experiment with loss functions, namely the reverse KL divergence that has more theoretical guarantees, and the Jensen-Shannon entropy. [code](https://github.com/Bissmella/llm_bayesian_preference.git) [Report](/files/bayesian_preference_LLM.pdf)
 
 
-5. **A note on lazy training in differentiable programming:**
+6. **A note on lazy training in differentiable programming:**
 We explore how scaling factors influence the transition to lazy training, where models behave linearly around their initialization. Through theoretical analysis and extensive experiments on two-layer neural networks, we extend the demonstration of how large scaling factors induce minimal parameter updates, leading to faster convergence but potentially limiting the model’s ability to capture complex nonlinear relationships. Additionally, we examine the correlation between weight initialization scales and output scaling factors and visualize the loss landscape under different scaling conditions. Our visualizations, and empirical and theoretical analysis provide deeper insights into the training dynamics of neural networks and extend on top of lazy training dynamics understanding.
 [code](https://github.com/RichardGou/MVA_GDA_PROJECT) [Report](/files/note_on_lazy_training.pdf)
 
 
-6. **Fine-tune LLAMA-v2 on personal chat data:**
+7. **Fine-tune LLAMA-v2 on personal chat data:**
 Llama v2 7b is a large language model (LLM) with 7 billion parameters that can be used for a variety of tasks, including text generation, translation, and question answering. However it can be fine-tuned on any other specific use such as on personal chat data for personal purposes using freely available colab GPU.
 [code](https://github.com/Bissmella/FineTune_llama_on_chat_data)
 
-7. **Blind navigation in 2d:**
+8. **Blind navigation in 2d:**
 This is a 2d implementation of the paper [Emergence of maps in the memories of blind navigation agents](https://arxiv.org/pdf/2301.13261). The main objective is to train a model for navigating an environment without any visual from the surroundings. The full project concerns an evolving environment where some part of the environment becomes unreachable as time evovles (for example a fire is spreading in the environment) and the goal of the agent is to navigate through the environment and reach the designated target. [code](https://github.com/Bissmella/Blind_navigation_2d.git)
 
 <!-- For more info
