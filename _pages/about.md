@@ -8,50 +8,95 @@ redirect_from:
   - /about.html
 ---
 
-I am a Machine Learning Engineer with with a Master’s degree (M2) in Mathematics, Vision, and Learning (MVA) from École Normale Supérieure Paris-Saclay. Additionally, I also hold a Master's degree in MIAGE (informatics applied to business) from University of Toulouse-Capitole. In 2025, I completed an internship at the ISIR Lab (Sorbonne University), focusing on Reinforcement Learning and Large Language Models (LLMs and VLMs).
+I am a Machine Learning Engineer with a Master’s degree (M2) in **Mathematics, Vision & Learning (MVA)** from **École Normale Supérieure Paris-Saclay**, and a Master’s degree in **MIAGE** from the University of Toulouse-Capitole.  
+My work spans **deep learning, multimodal modeling, reinforcement learning, and LLM/VLM research**, with hands-on experience both in academic labs and applied ML roles.
 
-Previously, I worked as a Research Engineer at the L2TI Lab, Université Sorbonne Paris-Nord, where I contributed to projects on multimodal object detection and few-shot learning and also co-led a dataset creation project from scratch. My Master’s internship there explored RGB–IR data fusion for aerial object detection using cross-channel attention mechanisms, resulting in an oral publication at ICIP 2024. In addition, I have worked as ML engineer and data analyst with different United Nations programs.
+I have previously worked as:
 
+- **Research Engineer**, L2TI Lab, Université Sorbonne Paris-Nord — multimodal object detection, few-shot learning, transformer-based models, and dataset creation.  
+- **ML Engineer & Data Analyst**, United Nations programs — applied ML, analytics, automation.  
+- **Research Intern**, ISIR Lab (Sorbonne University) — reinforcement learning with LLMs/VLMs, exploration dynamics, and value modeling.
 
+My research includes a **peer-reviewed journal publication**, an **ICIP 2024 oral presentation**, and an **arXiv preprint**.
 
-Publications
-======
-1. **Indirect Attention: Turning Context Misalignment into a Feature** [paper](https://www.arxiv.org/abs/2509.26015) (code: to be released soon) (Arxiv preprint) Bissmella Bahaduri, Hicham Talaoubrid, Fangchen Feng, Zuheng Ming, Anissa Mokraoui
+---
 
-2. **A Comparative Attention Framework for Better Few-shot Object Detection on Aerial Images** [paper](https://www.sciencedirect.com/science/article/pii/S0031320324009944) [code](https://github.com/pierlj/aaf_framework) (Pattern Recognition 2024) Pierre Le Jeune, Bissmella Bahaduri, Anissa Mokraoui
-3. **Multimodal Transformer using Cross-Channel Attention for Object Detection in Remote Sensing Images** [paper](https://arxiv.org/abs/2310.13876)   [code](https://github.com/Bissmella/Small-object-detection-transformers)
-(ICIP-24, <span style="color:red">oral presentation</span>) Bissmella Bahaduri, Zuheng Ming, Fangchen Feng, Anissa Mokraoui
+# **Publications**
 
-Selected projects
-======
+1. **Indirect Attention: Turning Context Misalignment into a Feature**  
+   *B. Bahaduri, H. Talaoubrid, F. Feng, Z. Ming, A. Mokraoui*  
+   [paper](https://www.arxiv.org/abs/2509.26015)  
 
-1. **Meeting copilot:** A real-time meeting assistant integrating speech-to-text, LLM inference, and vector search. Users can record, transcribe, and interact with meetings live. [code](https://github.com/Bissmella/meeting_assistant)
-<div style="text-align:center;">
-<video width="480"  controls>
-  <source src="/files/meeting_copilot_demo.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+2. **A Comparative Attention Framework for Better Few-shot Object Detection on Aerial Images**  
+   *P. Le Jeune, B. Bahaduri, A. Mokraoui*  
+   *Pattern Recognition 2024*  
+   [paper](https://www.sciencedirect.com/science/article/pii/S0031320324009944) · [code](https://github.com/pierlj/aaf_framework)
+
+3. **Multimodal Transformer using Cross-Channel Attention for Object Detection in Remote Sensing Images**  
+   *B. Bahaduri, Z. Ming, F. Feng, A. Mokraoui*  
+   *ICIP 2024 (oral)*  
+   [paper](https://arxiv.org/abs/2310.13876) · [code](https://github.com/Bissmella/Small-object-detection-transformers)
+
+---
+
+# **Selected Projects**
+
+## **1. Real-time Meeting Copilot**
+A production-style meeting assistant combining **speech-to-text**, **LLM inference**, and **vector search** for live transcription and interactive Q&A.  
+[code](https://github.com/Bissmella/meeting_assistant)
+
+<div style="text-align: center;">
+  <video width="480" controls>
+    <source src="/files/meeting_copilot_demo.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
 </div>
-2. **My master-MVA internship thesis:** During my internship between Apr-2025 and Sept-2025 I worked on reinforcement learning and LLMs/VLMs for sequential decision making. I have explored in multiple directions including: effects of LLM biases on exploration, using LLM's prior for exploration, and enhancing value approximation using a local utility function. The report is available [here](/files/BAHADURI%20BISSMELLA%20RAPPORT.pdf)
 
-3. **Curiosity based reinforcement learning for LLMs for sequential decision making:**  Implemented a curiosity-driven RL framework for large language models to encourage exploration in sequential decision tasks. The approach leverages two types of novelty: **action-level novelty** to reduce repetition, and **action-pattern novelty** via a temporal predictor model to reward unseen sequences of actions. A T5-based temporal predictor is trained to forecast the next action in a trajectory, and its prediction loss is used to guide exploration, improving policy diversity and efficiency. [code](https://github.com/Bissmella/LLM-curiosity-RL)
+---
 
-4. **PnP-Flow : Plug-and-Play Image Restoration with Flow Matching:**  Image restoration is an inverse problem that aims at discovering an image from another noisy, degraded given image. In this project we analyze the usage of flow-matching in the plug and play algorithm. We train an FM model from scratch on 2D synthetic data and utilize it in PnP algorithm. [code](https://github.com/Bissmella/PnP-FM) [Report](/files/PnP_FM-report.pdf)
+## **2. MVA Research Internship — RL + LLM/VLMs**
+Explored:  
+- LLM bias effects on exploration  
+- LLM priors as exploration drivers  
+- Enhanced value approximation via local utility functions  
+[Report](/files/BAHADURI%20BISSMELLA%20RAPPORT.pdf)
 
-5. **A Bayesian Approach for Preference Alignment for Language Models:** In this project/report we take a Bayesian approach to provide a better solution to the problem of noisy labels for LLM alignment with human preferences. First, we link the preference alignment setting to the more general Bayesian framework for noisy labels. Second, we experiment with loss functions, namely the reverse KL divergence that has more theoretical guarantees, and the Jensen-Shannon entropy. [code](https://github.com/Bissmella/llm_bayesian_preference.git) [Report](/files/bayesian_preference_LLM.pdf)
+---
 
+## **3. Curiosity-Driven RL for LLMs**
+Designed a curiosity-based exploration framework using action-level novelty and sequence-level novelty via a T5-based temporal predictor.  
+[code](https://github.com/Bissmella/LLM-curiosity-RL)
 
-6. **A note on lazy training in differentiable programming:**
-We explore how scaling factors influence the transition to lazy training, where models behave linearly around their initialization. Through theoretical analysis and extensive experiments on two-layer neural networks, we extend the demonstration of how large scaling factors induce minimal parameter updates, leading to faster convergence but potentially limiting the model’s ability to capture complex nonlinear relationships. Additionally, we examine the correlation between weight initialization scales and output scaling factors and visualize the loss landscape under different scaling conditions. Our visualizations, and empirical and theoretical analysis provide deeper insights into the training dynamics of neural networks and extend on top of lazy training dynamics understanding.
-[code](https://github.com/RichardGou/MVA_GDA_PROJECT) [Report](/files/note_on_lazy_training.pdf)
+---
 
+## **4. PnP-Flow: Plug-and-Play Image Restoration with Flow Matching**
+Trained a 2D Flow Matching model and integrated it into a plug-and-play restoration algorithm.  
+[code](https://github.com/Bissmella/PnP-FM) · [report](/files/PnP_FM-report.pdf)
 
-7. **Fine-tune LLAMA-v2 on personal chat data:**
-Llama v2 7b is a large language model (LLM) with 7 billion parameters that can be used for a variety of tasks, including text generation, translation, and question answering. However it can be fine-tuned on any other specific use such as on personal chat data for personal purposes using freely available colab GPU.
+---
+
+## **5. Bayesian Preference Alignment for LLMs**
+Bayesian approach to handle noisy labels in LLM preference optimization using divergence-based losses (Reverse KL, JS).  
+[code](https://github.com/Bissmella/llm_bayesian_preference) · [report](/files/bayesian_preference_LLM.pdf)
+
+---
+
+## **6. Lazy Training in Differentiable Programming**
+Theoretical + empirical analysis of scaling effects and linearization regimes in neural network training dynamics.  
+[code](https://github.com/RichardGou/MVA_GDA_PROJECT) · [report](/files/note_on_lazy_training.pdf)
+
+---
+
+## **7. Fine-tuning LLaMA-2 on Personal Chats**
+End-to-end pipeline for fine-tuning LLaMA-2 on user-specific chat data using free Colab GPU.  
 [code](https://github.com/Bissmella/FineTune_llama_on_chat_data)
 
-8. **Blind navigation in 2d:**
-This is a 2d implementation of the paper [Emergence of maps in the memories of blind navigation agents](https://arxiv.org/pdf/2301.13261). The main objective is to train a model for navigating an environment without any visual from the surroundings. The full project concerns an evolving environment where some part of the environment becomes unreachable as time evovles (for example a fire is spreading in the environment) and the goal of the agent is to navigate through the environment and reach the designated target. [code](https://github.com/Bissmella/Blind_navigation_2d.git)
+---
+
+## **8. Blind Navigation in 2D**
+Reimplementation of “Emergence of Maps in Blind Agents” with evolving environment dynamics and navigation constraints.  
+[code](https://github.com/Bissmella/Blind_navigation_2d)
+
 
 <!-- For more info
 ------
