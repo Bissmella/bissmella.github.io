@@ -13,9 +13,9 @@ My work spans **deep learning, multimodal modeling, reinforcement learning, and 
 
 I have previously worked as:
 
-- **Research Engineer**, L2TI Lab, Université Sorbonne Paris-Nord — multimodal object detection, few-shot learning, transformer-based models, and dataset creation.  
-- **ML Engineer & Data Analyst**, United Nations programs — applied ML, analytics, automation.  
-- **Research Intern**, ISIR Lab (Sorbonne University) — reinforcement learning with LLMs/VLMs, exploration dynamics, and value modeling.
+- **Research Engineer**, L2TI Lab, Université Sorbonne Paris-Nord, wroked on multimodal object detection, few-shot learning, transformer-based models, and dataset creation.  
+- **ML Engineer & Data Analyst**, United Nations programs: applied ML, analytics, image analysis.  
+- **Research Intern**, ISIR Lab (Sorbonne University): reinforcement learning with LLMs/VLMs, exploration dynamics, and value modeling.
 
 My research includes a **peer-reviewed journal publication**, an **ICIP 2024 oral presentation**, and an **arXiv preprint**.
 
@@ -54,7 +54,7 @@ A production-style meeting assistant combining **speech-to-text**, **LLM inferen
 
 ---
 
-## **2. MVA Research Internship — RL + LLM/VLMs**
+## **2. MVA Research Internship: RL + LLM/VLMs**
 Explored:  
 - LLM bias effects on exploration  
 - LLM priors as exploration drivers  
