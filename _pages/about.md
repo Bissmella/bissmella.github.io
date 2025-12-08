@@ -15,7 +15,7 @@ I have previously worked as:
 
 - **Research Engineer**, L2TI Lab, Université Sorbonne Paris-Nord, wroked on multimodal object detection, few-shot learning, transformer-based models, and dataset creation.  
 - **ML Engineer & Data Analyst**, United Nations programs: applied ML, analytics, image analysis.  
-- **Research Intern**, ISIR Lab (Sorbonne University): reinforcement learning with LLMs/VLMs, exploration dynamics, and value modeling.
+- **Research Intern**, ISIR Lab (Sorbonne University): reinforcement learning with LLMs/VLMs, exploration dynamics, and value modeling for planning for robots.
 
 My research includes a **peer-reviewed journal publication**, an **ICIP 2024 oral presentation**, and an **arXiv preprint**.
 
@@ -54,14 +54,17 @@ A production-style meeting assistant combining **speech-to-text**, **LLM inferen
 
 ---
 
-## **2. MVA Research Internship: RL + LLM/VLMs**
+## **2. MVA Research Internship: RL + LLM/VLMs for robotics planning**
 Explored:  
-- LLM bias effects on exploration  
-- LLM priors as exploration drivers  
-- Enhanced value approximation via local utility functions  
+- LLM/VLM bias effects on exploration  
+- LLM/VLM priors as exploration drivers  
+- Enhanced value approximation via local utility functions for VLMs
 [Report](/files/BAHADURI%20BISSMELLA%20RAPPORT.pdf)
 
 ---
+
+## **3. Training an SO100 Robotic arm to arrange a table**
+[Report](/files/PensToStand.pdf)
 
 ## **3. Curiosity-Driven RL for LLMs**
 Designed a curiosity-based exploration framework using action-level novelty and sequence-level novelty via a T5-based temporal predictor.  
