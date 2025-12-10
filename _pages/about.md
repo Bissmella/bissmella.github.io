@@ -66,37 +66,37 @@ Explored:
 ## **3. Training an SO100 Robotic arm to arrange a table**
 [Report](/files/PensToStand.pdf)
 
-## **3. Curiosity-Driven RL for LLMs**
+## **4. Curiosity-Driven RL for LLMs**
 Designed a curiosity-based exploration framework using action-level novelty and sequence-level novelty via a T5-based temporal predictor.  
 [code](https://github.com/Bissmella/LLM-curiosity-RL)
 
 ---
 
-## **4. PnP-Flow: Plug-and-Play Image Restoration with Flow Matching**
+## **5. PnP-Flow: Plug-and-Play Image Restoration with Flow Matching**
 Trained a 2D Flow Matching model and integrated it into a plug-and-play restoration algorithm.  
 [code](https://github.com/Bissmella/PnP-FM) · [report](/files/PnP_FM-report.pdf)
 
 ---
 
-## **5. Bayesian Preference Alignment for LLMs**
+## **6. Bayesian Preference Alignment for LLMs**
 Bayesian approach to handle noisy labels in LLM preference optimization using divergence-based losses (Reverse KL, JS).  
 [code](https://github.com/Bissmella/llm_bayesian_preference) · [report](/files/bayesian_preference_LLM.pdf)
 
 ---
 
-## **6. Lazy Training in Differentiable Programming**
+## **7. Lazy Training in Differentiable Programming**
 Theoretical + empirical analysis of scaling effects and linearization regimes in neural network training dynamics.  
 [code](https://github.com/RichardGou/MVA_GDA_PROJECT) · [report](/files/note_on_lazy_training.pdf)
 
 ---
 
-## **7. Fine-tuning LLaMA-2 on Personal Chats**
+## **8. Fine-tuning LLaMA-2 on Personal Chats**
 End-to-end pipeline for fine-tuning LLaMA-2 on user-specific chat data using free Colab GPU.  
 [code](https://github.com/Bissmella/FineTune_llama_on_chat_data)
 
 ---
 
-## **8. Blind Navigation in 2D**
+## **9. Blind Navigation in 2D**
 Reimplementation of “Emergence of Maps in Blind Agents” with evolving environment dynamics and navigation constraints.  
 [code](https://github.com/Bissmella/Blind_navigation_2d)
 
