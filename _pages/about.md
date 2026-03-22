@@ -8,16 +8,73 @@ redirect_from:
   - /about.html
 ---
 
-I am a Machine Learning Engineer with a Master’s degree (M2) in **Mathematics, Vision & Learning (MVA)** from **École Normale Supérieure Paris-Saclay**, and a Master’s degree in **MIAGE** from the University of Toulouse-Capitole.  
+I am a Machine Learning Engineer with a Master’s degree (M2) in **Mathematics, Vision & Learning (MVA)** from **École Normale Supérieure Paris-Saclay**.  
 My work spans **deep learning, multimodal modeling, reinforcement learning, and LLM/VLM research**, with hands-on experience both in academic labs and applied ML roles.
 
 I have previously worked as:
 
 - **Research Engineer**, L2TI Lab, Université Sorbonne Paris-Nord, wroked on multimodal object detection, few-shot learning, transformer-based models, and dataset creation.  
-- **ML Engineer & Data Analyst**, United Nations programs: applied ML, analytics, image analysis.  
-- **Research Intern**, ISIR Lab (Sorbonne University): reinforcement learning with LLMs/VLMs, exploration dynamics, and value modeling for planning for robots.
+- **ML Engineer & Data Analyst**, United Nations programs: applied ML, image analysis.  
+- **Research Intern**, ISIR Lab (Sorbonne University): supervised and RL fine-tuning for LLMs/VLMs, exploration dynamics in RL for LLMs, and value modeling for planning for robots.
 
 My research includes a **peer-reviewed journal publication**, an **ICIP 2024 oral presentation**, and an **arXiv preprint**.
+
+---
+
+# **Open Source**
+
+## **1. Unified sequence parallelism implementation for HF diffusers**
+[PR link](https://github.com/huggingface/diffusers/pull/12693)
+
+## **2. Vectorized IoU computation for PerceptionMetrics library**
+[PR link](https://github.com/JdeRobot/PerceptionMetrics/pull/398)
+
+# **Selected Projects**
+
+## **1. Real-time Meeting Copilot**
+A production-style meeting assistant combining **speech-to-text inference**, **LLM inference**, and **vector search** for live transcription and interactive Q&A.  
+[code](https://github.com/Bissmella/meeting_assistant)
+
+<div style="text-align: center;">
+  <video width="480" controls>
+    <source src="/files/meeting_copilot_demo.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+
+---
+
+## **2. Minimalist voice-assistant implementation:**
+A minimialist implementation for a voice AI chatbot with low latency, and some simple tool calling implementaiton for LLM.
+
+## **3. MVA Research Internship: RL + LLM/VLMs for robotics planning**
+Explored:  
+- LLM/VLM bias effects on exploration  
+- LLM/VLM priors as exploration drivers  
+- Enhanced value approximation via local utility functions for VLMs
+[Report](/files/BAHADURI%20BISSMELLA%20RAPPORT.pdf)
+[LLM finetuning](https://github.com/Bissmella/LLM-curiosity-RL)
+[VLM finetuning framework](https://github.com/Bissmella/VLM_finetune)
+
+---
+
+
+
+## **4. Curiosity-Driven RL for LLMs**
+Designed a curiosity-based exploration framework using action-level novelty and sequence-level novelty via a T5-based temporal predictor.  
+[code](https://github.com/Bissmella/LLM-curiosity-RL)
+
+---
+
+## **5. PnP-Flow: Plug-and-Play Image Restoration with Flow Matching**
+Trained a 2D Flow Matching model and integrated it into a plug-and-play restoration algorithm.  
+[code](https://github.com/Bissmella/PnP-FM) · [report](/files/PnP_FM-report.pdf)
+
+---
+
+## **6. Fine-tuning LLaMA-2 on Personal Chats**
+End-to-end pipeline for fine-tuning LLaMA-2 on user-specific chat data using free Colab GPU.  
+[code](https://github.com/Bissmella/FineTune_llama_on_chat_data)
 
 ---
 
@@ -37,68 +94,6 @@ My research includes a **peer-reviewed journal publication**, an **ICIP 2024 ora
    *ICIP 2024 (oral)*  
    [paper](https://arxiv.org/abs/2310.13876) · [code](https://github.com/Bissmella/Small-object-detection-transformers)
 
----
-
-# **Selected Projects**
-
-## **1. Real-time Meeting Copilot**
-A production-style meeting assistant combining **speech-to-text**, **LLM inference**, and **vector search** for live transcription and interactive Q&A.  
-[code](https://github.com/Bissmella/meeting_assistant)
-
-<div style="text-align: center;">
-  <video width="480" controls>
-    <source src="/files/meeting_copilot_demo.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-</div>
-
----
-
-## **2. MVA Research Internship: RL + LLM/VLMs for robotics planning**
-Explored:  
-- LLM/VLM bias effects on exploration  
-- LLM/VLM priors as exploration drivers  
-- Enhanced value approximation via local utility functions for VLMs
-[Report](/files/BAHADURI%20BISSMELLA%20RAPPORT.pdf)
-
----
-
-## **3. Training an SO100 Robotic arm to arrange a table**
-[Report](/files/PensToStand.pdf)
-
-## **4. Curiosity-Driven RL for LLMs**
-Designed a curiosity-based exploration framework using action-level novelty and sequence-level novelty via a T5-based temporal predictor.  
-[code](https://github.com/Bissmella/LLM-curiosity-RL)
-
----
-
-## **5. PnP-Flow: Plug-and-Play Image Restoration with Flow Matching**
-Trained a 2D Flow Matching model and integrated it into a plug-and-play restoration algorithm.  
-[code](https://github.com/Bissmella/PnP-FM) · [report](/files/PnP_FM-report.pdf)
-
----
-
-## **6. Bayesian Preference Alignment for LLMs**
-Bayesian approach to handle noisy labels in LLM preference optimization using divergence-based losses (Reverse KL, JS).  
-[code](https://github.com/Bissmella/llm_bayesian_preference) · [report](/files/bayesian_preference_LLM.pdf)
-
----
-
-## **7. Lazy Training in Differentiable Programming**
-Theoretical + empirical analysis of scaling effects and linearization regimes in neural network training dynamics.  
-[code](https://github.com/RichardGou/MVA_GDA_PROJECT) · [report](/files/note_on_lazy_training.pdf)
-
----
-
-## **8. Fine-tuning LLaMA-2 on Personal Chats**
-End-to-end pipeline for fine-tuning LLaMA-2 on user-specific chat data using free Colab GPU.  
-[code](https://github.com/Bissmella/FineTune_llama_on_chat_data)
-
----
-
-## **9. Blind Navigation in 2D**
-Reimplementation of “Emergence of Maps in Blind Agents” with evolving environment dynamics and navigation constraints.  
-[code](https://github.com/Bissmella/Blind_navigation_2d)
 
 
 <!-- For more info
