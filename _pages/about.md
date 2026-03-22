@@ -46,6 +46,7 @@ A production-style meeting assistant combining **speech-to-text inference**, **L
 
 ## **2. Minimalist voice-assistant implementation:**
 A minimialist implementation for a voice AI chatbot with low latency, and some simple tool calling implementaiton for LLM.
+[code](https://github.com/Bissmella/voice_assistant)
 
 ## **3. MVA Research Internship: RL + LLM/VLMs for robotics planning**
 Explored:  
