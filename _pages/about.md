@@ -31,7 +31,7 @@ My research includes a **peer-reviewed journal publication**, an **ICIP 2024 ora
 
 ## Selected Projects
 
-### 1. MVA Research Internship: RL + LLM/VLMs for robotics planning
+### 1. MVA Research Internship: RL + LLM/VLMs for agentic environments
 Explored:  
 - LLM/VLM bias effects on exploration  
 - LLM/VLM priors as exploration drivers  
